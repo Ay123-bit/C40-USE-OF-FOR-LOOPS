@@ -1,14 +1,21 @@
 //INPUT
 #include<stdio.h>
 int main(){
-    for(int i=1;i<=5;i++){
+    int n;
+    printf("Enter a number: ");
+    scanf("%d", &n);
+    for(int i=1;i<=n;i=i+1){
         printf("Hello PW\n");
     }
+    printf("%d", n);
     return 0;
 }
 //OUTPUT
+Enter a number: 5
 Hello PW
 Hello PW
 Hello PW
 Hello PW
 Hello PW
+5
+//i=i+1==i++
